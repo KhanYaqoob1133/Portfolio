@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
 body {
     display: flex;
     font-family: 'Poppins',sans-serif;
@@ -30,7 +31,7 @@ body {
   }
   
   .headLine {
-    background-size: cover;
+    /* background-size: contain; */
     border-bottom-left-radius: 50px;
     background-color: #fff;
     width: 100%;
@@ -56,11 +57,18 @@ body {
   
   .connect {
     color: #7f8cff;
-    margin-left: 10%;
-    font-weight: 500;
+    margin-left: 30px;
+    font-weight: bold;
   }
   
   .social {
-    margin-left: 10%;
+    margin-left: 30px;
     margin-bottom: 16%;
+  }
+  ul{
+    width: 170px;
+    padding-left: 22px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
   }
