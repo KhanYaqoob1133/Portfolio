@@ -64,3 +64,9 @@ body {
     margin-left: 10%;
     margin-bottom: 16%;
   }
+  section{
+    border: 5px solid red;
+  }
+  section h1{
+    display: flex;
+  }
