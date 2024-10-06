@@ -156,33 +156,5 @@ body {
     font-weight:500;
     font-size: 16px;
   }
-  .about{
-    width: 327px;
-    height: 35px;
-    gap: 0px;
-    opacity: 0px;
-    font-size: xx-large;
-    margin-top: 75px;
-    font-family: Poppins;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 52px;
-    text-align: left;
 
-  }
-  .lets-connect{
-    left: -30px;
-    height: 24px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Poppins;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    color: #6070FF;
 
-  }
-  .social1{
-
-  }
