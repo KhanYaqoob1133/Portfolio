@@ -183,3 +183,34 @@ body {
     color: #6070FF;
 
   }
+  .language{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 237px;
+    height: 24px;
+    top: 24px;
+    left: 12px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+
+  }
+  .main-div{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  .child-div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    background:#F7F7F9;
+    margin-bottom: 5px;
+
+  }
