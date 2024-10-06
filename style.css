@@ -63,12 +63,85 @@ body {
   
   .social {
     margin-left: 30px;
-    margin-bottom: 16%;
   }
-  ul{
+  ul.social{
     width: 170px;
-    padding-left: 22px;
+    padding-left: 0px;
     list-style: none;
     display: flex;
     justify-content: space-evenly;
   }
+  .FImage{
+    width: 295px;
+    height: 220px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    margin-top: 70px;
+
+  }
+  .tonic{
+    width: 295px;
+    height: 36px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+
+  }
+  ul.body{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  /* .first{
+    position: absolute;
+    list-style: none;
+    width: 55px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    left: 2px;
+    text-align: left;
+  }
+  .second{
+    position: absolute;
+    list-style: none;
+    width: Hug (88px)px;
+    height: Hug (32px)px;
+    margin-top: -13px;
+    padding: 8px 0px 8px 0px;
+    gap: 0px;
+    opacity: 0px;
+    left: 75px;
+  }
+  .third{
+    position: absolute;
+    list-style: none;
+    width: Hug (88px)px;
+    height: Hug (32px)px;
+    margin-top: -13px;
+    padding: 8px 0px 8px 0px;
+    gap: 0px;
+    opacity: 0px;
+    left: 200px;
+  }
+  p.body-paragraph{
+    width: 295px;
+    height: 76px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    
+  } */
