@@ -97,51 +97,53 @@ body {
     justify-content: space-between;
     position: relative;
   }
-  /* .first{
-    position: absolute;
-    list-style: none;
-    width: 55px;
-    height: 16px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Poppins;
-    font-size: 13px;
-    font-weight: 600;
-    line-height: 16px;
-    left: 2px;
-    text-align: left;
+  section.body{
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
   }
-  .second{
-    position: absolute;
-    list-style: none;
-    width: Hug (88px)px;
-    height: Hug (32px)px;
-    margin-top: -13px;
-    padding: 8px 0px 8px 0px;
-    gap: 0px;
-    opacity: 0px;
-    left: 75px;
+  .image1{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
   }
-  .third{
-    position: absolute;
-    list-style: none;
-    width: Hug (88px)px;
-    height: Hug (32px)px;
-    margin-top: -13px;
-    padding: 8px 0px 8px 0px;
-    gap: 0px;
-    opacity: 0px;
-    left: 200px;
+  .mid-portion{
+    margin-top: 10px
   }
-  p.body-paragraph{
-    width: 295px;
-    height: 76px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Poppins;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
+  div h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 72px;
     text-align: left;
     
-  } */
+  }
+  .list{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+  }
+  .canopy{
+    font-weight: bold;
+  }
+  .skills{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #EBEBFF;
+    color: #6070FF;
+    border-radius: 8px;
+  }
+  .button{
+    padding: 15px;
+    border: 1px solid #6070FF;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: #6070FF;
+    font-weight:700;
+    font-size: large;
+  }
