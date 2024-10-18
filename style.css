@@ -72,14 +72,7 @@ body {
     justify-content: space-evenly;
   }
   
-  ul.social1{
-    margin-left: -8px;
-    width: 170px;
-    padding-left: 0px;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-  }
+
   .FImage{
     width: 295px;
     height: 220px;
@@ -146,6 +139,16 @@ body {
     color: #6070FF;
     border-radius: 8px;
   }
+  .Lbutton{
+    padding: 15px;
+    border: 1px solid #6070FF;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: #6070FF;
+    font-weight:700;
+    font-size: large;
+  }
   .button{
     padding: 15px;
     border: 1px solid #6070FF;
@@ -156,7 +159,7 @@ body {
     font-weight:700;
     font-size: large;
   }
-  .about{
+  .Labout{
     width: 327px;
     height: 35px;
     gap: 0px;
@@ -170,7 +173,7 @@ body {
     text-align: left;
 
   }
-  .lets-connect{
+  .Llets-connect{
     left: -30px;
     height: 24px;
     gap: 0px;
@@ -183,7 +186,7 @@ body {
     color: #6070FF;
 
   }
-  .language{
+  .Llanguage{
     margin-top: 50px;
     margin-bottom: 30px;
     width: 237px;
@@ -200,12 +203,12 @@ body {
 
 
   }
-  .main-div{
+  .Lmain-div{
     display: flex;
     flex-direction: column;
     background-color: white;
   }
-  .child-div{
+  .Lchild-div{
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -213,4 +216,18 @@ body {
     background:#F7F7F9;
     margin-bottom: 5px;
 
+  }
+  .Lbody {
+    display: flex;
+    font-family: 'Poppins',sans-serif;
+    background-color: white;
+    flex-direction: column;
+  }
+  ul.Lsocial1{
+    margin-left: -8px;
+    width: 170px;
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
   }
