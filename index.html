@@ -1,216 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
     <nav class="header">
         <h1 class="logo">My logo</h1>
-        <img src="./Menu.svg" alt="menu" class="menu">
+        <img src="./Menu.svg" alt="menu" class="menu" id="open-menu">
     </nav>
+
     <main>
         <section class="headLine">
-            <h1 class="intro">I'm yaqoob Khan! Glad to see you!</h1>
-            <p class="para">I'm a software developer! I can help you build a product , feature or website Look through
-                some
-                of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to
-                contact me.</p>
+            <h1 class="intro">I'm Yaqoob Khan! Glad to see you!</h1>
+            <p class="para">I'm a software developer! I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
             <h3 class="connect">Let's Connect</h3>
-            <!-- <img src="./icons.jpeg" alt="icons" class="social"> -->
             <ul class="social">
                 <li><img src="./Vector.svg" alt=""></li>
                 <li><img src="./Linkedin icon.svg" alt=""></li>
                 <li><img src="./Vector (1).svg" alt=""></li>
                 <li><img src="./Vector (2).svg" alt=""></li>
                 <li><img src="./Vector (3).svg" alt=""></li>
-
             </ul>
         </section>
-        
     </main>
-    <section class="body">
-        <div>
-            <div class="image1">
-                <img src="./1st.png" alt="FIrst Image" style="width: 100%;">
-            </div>
-            <div class="mid-portion">
-                <h2>
-                    Tonic
-                </h2>
-                <div class="list">
-                    <span class="canopy">CANOPY</span>
-                    <div style="width: 12px; height: 12px; border-radius: 100px; background-color: #C1C7D0;"></div>
-                    <span>Backend Dev</span>
-                    <div style="width: 12px; height: 12px; border-radius: 100px; background-color: #C1C7D0;"></div>
-                    <span>2015</span>
-                </div>
-                <div>
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
-                    <div style="margin-top: 10px; display: flex; flex-direction: row; gap: 10px; align-items: center;">
-                        <span class="skills">HTML</span>
-                        <span class="skills">CSS</span>
-                        <span class="skills">JAVASCRIPT</span>
-                    </div>
-                </div>
-                <button class="button">
-                    See project
-                </button>
-            </div>
-        </div>
-    </section>
 
-    <section class="body">
-        <div>
-            <div class="image1">
-                <img src="./2nd.png" alt="FIrst Image" style="width: 100%;">
-            </div>
-            <div class="mid-portion">
-                <h2>
-                    Multy-Post Stories
-                </h2>
-                <div class="list">
-                    <span class="canopy">CANOPY</span>
-                    <div style="width: 12px; height: 12px; border-radius: 100px; background-color: #C1C7D0;"></div>
-                    <span>Backend Dev</span>
-                    <div style="width: 12px; height: 12px; border-radius: 100px; background-color: #C1C7D0;"></div>
-                    <span>2015</span>
-                </div>
-                <div>
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
-                    <div style="margin-top: 10px; display: flex; flex-direction: row; gap: 10px; align-items: center;">
-                        <span class="skills">HTML</span>
-                        <span class="skills">CSS</span>
-                        <span class="skills">JAVASCRIPT</span>
-                    </div>
-                </div>
-                <button class="button">
-                    See project
-                </button>
-            </div>
-        </div>
-    </section>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <img src="./close.svg" alt="close" class="close-menu" id="close-menu">
+        <ul>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
 
-
-    <section class="body">
-        <div>
-            <div class="image1">
-                <img src="./3rd.png" alt="FIrst Image" style="width: 100%;">
-            </div>
-            <div class="mid-portion">
-                <h2>
-                    Tonic
-                </h2>
-                <div class="list">
-                    <span class="canopy">CANOPY</span>
-                    <div style="width: 12px; height: 12px; border-radius: 100px; background-color: #C1C7D0;"></div>
-                    <span>Backend Dev</span>
-                    <div style="width: 12px; height: 12px; border-radius: 100px; background-color: #C1C7D0;"></div>
-                    <span>2015</span>
-                </div>
-                <div>
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
-                    <div style="margin-top: 10px; display: flex; flex-direction: row; gap: 10px; align-items: center;">
-                        <span class="skills">HTML</span>
-                        <span class="skills">CSS</span>
-                        <span class="skills">JAVASCRIPT</span>
-                    </div>
-                </div>
-                <button class="button">
-                    See project
-                </button>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="body">
-        <div>
-            <div class="image1">
-                <img src="./4th.png" alt="FIrst Image" style="width: 100%;">
-            </div>
-            <div class="mid-portion">
-                <h2>
-                    Multy-Post Stories
-                </h2>
-                <div class="list">
-                    <span class="canopy">CANOPY</span>
-                    <div style="width: 12px; height: 12px; border-radius: 100px; background-color: #C1C7D0;"></div>
-                    <span>Backend Dev</span>
-                    <div style="width: 12px; height: 12px; border-radius: 100px; background-color: #C1C7D0;"></div>
-                    <span>2015</span>
-                </div>
-                <div>
-                    <p>
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
-                    <div style="margin-top: 10px; display: flex; flex-direction: row; gap: 10px; align-items: center;">
-                        <span class="skills">HTML</span>
-                        <span class="skills">CSS</span>
-                        <span class="skills">JAVASCRIPT</span>
-                    </div>
-                </div>
-                <button class="button">
-                    See project
-                </button>
-            </div>
-        </div>
-    </section>
-    
-    <section class="Lbody">
-        <h1 class="Labout">About Myself</h1>
-        <p>Hello I`m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-        <div>
-            <div class="Llets-connect">LET`S CONNECT</div>
-            <ul class="Lsocial1">
-                <li><img src="./Vector.svg" alt=""></li>
-                <li><img src="./Linkedin icon.svg" alt=""></li>
-                <li><img src="./Vector (1).svg" alt=""></li>
-                <li><img src="./Vector (2).svg" alt=""></li>
-                <li><img src="./Vector (3).svg" alt=""></li>
-
-            </ul>
-        </div>
-        <button class="Lbutton">
-            get my resume
-        </button>
-        <h1 class="Llanguage">Languages</h1>
-        <div class="Lmain-div">
-            <div class="Lchild-div"> <img src="./JS.png" alt="JS-Image">JAVASCRIPT</div>
-            <div class="Lchild-div"> <img src="./html.png" alt="JS-Image">HTML</div>
-            <div class="Lchild-div"> <img src="./css.png" alt="JS-Image">CSS</div>
-            <div style="margin-top: 10px; margin-bottom: 10px; font-weight: 500; font-size: large;">Frameworks</div>
-            <div style="margin-top: 10px; margin-bottom: 10px; font-weight: 500; font-size: large;">Skills</div>
-        </div>
-
-    </section>
-
-    <section class="FheadLine">
-        <div class="Fcontact-me">
-            <p>Contact me</p>
-        </div>
-        <p class="Fp2">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-            I’d love to help with it!
-        </p>
-        <form action="" class="form">
-            <input type="text" class="input-feild" placeholder="Lorem Ipsum" required>
-            <input type="email" class="input-feild" placeholder="loremIpsum@gmail.com" required>
-            <textarea name="" id="" cols="30" rows="10" class="text-area" placeholder="write your message here"></textarea>
-            <input type="submit" value="Get in Touch" class="Fbutton">
-        </form>
-       
-
-    </section>
+    <script src="./script.js"></script>
 </body>
-
 </html>
